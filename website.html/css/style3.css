@@ -1,0 +1,74 @@
+.my-navbar {
+  background: #a97070;
+  padding: 15px;
+}
+
+.navbar-brand {
+  color: rgb(236, 223, 223) !important;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+a.nav-link {
+  color: rgb(236, 223, 223) !important;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+a.text-body:hover {
+  color: white !important;
+}
+
+
+body {
+  background: #ebe0e0;
+}
+
+.Connect {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.overlay4 {
+  position: absolute;
+  background-color: #603939;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  z-index: -1;
+}
+
+.large {
+  font-family: "Candara", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: #603939;
+  padding-top: 35px;
+}
+
+.medium {
+  font-family: "Candara", sans-serif;
+  font-size: 17.5px;
+  font-weight: 550;
+  text-align: center;
+  color: #603939;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: #603939;
+  font-size: 5em;
+  font-weight: 200;
+  padding: 20px;
+}

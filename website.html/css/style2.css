@@ -1,0 +1,152 @@
+.my-navbar {
+  background: #a97070;
+  padding: 15px;
+}
+
+.navbar-brand {
+  color: rgb(236, 223, 223) !important;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+a.nav-link {
+  color: rgb(236, 223, 223) !important;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+a.text-body:hover {
+  color: white !important;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #ebe0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Candara", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: #603939;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.text2 {
+  text-align: center;
+  color: #603939;
+  font-family: "Candara", sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 90%;
+  line-height: 1.6;
+}
+
+.overlay3 {
+  position: absolute;
+  background-color: #603939;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  z-index: -1;
+}
+.container {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card {
+  position: relative;
+  background: #ebe0e0;
+  border: none;
+}
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+  background: #c4a1a1;
+  transform: translateY(0);
+}
+.container .card .face.face2 {
+  position: relative;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #603939;
+  padding: 5px;
+  border: 1px solid #603939;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #603939;
+  color: white;
+}
+
+.container .card .face.face1 .content {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+  max-width: 300px;
+
+}
+
+.container .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  font-family: "Candara", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}

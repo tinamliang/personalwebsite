@@ -1,0 +1,62 @@
+.my-navbar {
+  background: #a97070;
+  padding: 15px;
+}
+
+.navbar-brand {
+  color: rgb(236, 223, 223) !important;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+a.nav-link {
+  color: rgb(236, 223, 223) !important;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+a.text-body:hover {
+  color: white !important;
+}
+
+.big-banner {
+  background-image: url('../images/flower.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+h2 {
+  position: absolute;
+  width: 100%;
+  top: 275px;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 225px;
+  background-color: #a97070;
+  width: 100%;
+  opacity: 0.6;
+  padding: 100px;
+}
+
+.text {
+  position: absolute;
+  top: 350px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Candara", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: #e2cfcf;
+}
