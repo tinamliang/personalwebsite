@@ -5,7 +5,7 @@ Welcome to my personal website! Here you can find any relevant code, but for eas
 ### Created using:
   
    * Vanilla javascript
-   * Css
+   * CSS
    * Html
 
 Here's a little peek of my website:
